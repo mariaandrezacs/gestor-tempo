@@ -18,7 +18,6 @@ Aplicação web simples para gerenciamento de tempo baseada na técnica Pomodoro
 - HTML5
 - CSS3
 - JavaScript (ES6)
-- DOM API
 
 ---
 
@@ -30,9 +29,12 @@ Aplicação web simples para gerenciamento de tempo baseada na técnica Pomodoro
 
 ---
 
-## 📌 Futuras melhorias (to-do)
+## 📌 [Gestor Tempo] Melhorias Futuras
  - [ ] Personalizar tempo de foco e descanso
  - [ ] Adicionar som de alarme ao fim dos ciclos
- - [ ] Armazenar o histórico em localStorage
+ - [ ] Armazenar o histórico
  - [ ] Exportar sessões para CSV
  - [ ] Suporte a temas (modo escuro, claro)
+ - [ ] Adicionar projeto pra rodar em docker
+
+
