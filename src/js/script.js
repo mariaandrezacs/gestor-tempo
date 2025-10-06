@@ -63,7 +63,7 @@ function registrarSessao(tipo, duracaoMin) {
   });
   li.textContent = `${tipo} - ${duracaoMin} min (${agora})`;
   li.classList.add(tipo === 'Foco' ? 'foco' : 'descanso');
-  historico.prepend(li); // adiciona no topo
+  historico.prepend(li)
 }
 
 btnStart.onclick = iniciarTimer;
