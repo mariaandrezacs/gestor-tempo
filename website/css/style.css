@@ -3,16 +3,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background: #fefefe;
+  margin-top: 100px;
+  background: #a5a4a4;
+  font-size: 12px;
 }
 
 .container {
   text-align: center;
-  background: #fff;
+  background: #f0efef;
+  width: 350px;
+  height: auto;
   padding: 40px;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 
 .timer {
@@ -29,9 +32,9 @@ body {
   cursor: pointer;
 }
 
-#start { background: #4caf50; color: #fff; }
-#pause { background: #ff9800; color: #fff; }
-#reset { background: #f44336; color: #fff; }
+#start { background: #2c7c2f; color: #fff; }
+#pause { background: #f19e20; color: #fff; }
+#reset { background: #e2291c; color: #fff; }
 
 #status {
   margin-top: 20px;
@@ -51,11 +54,11 @@ body {
 #historico li {
   padding: 6px 10px;
   margin-bottom: 4px;
-  background: #f4f4f4;
-  border-left: 5px solid #4caf50;
+  background: #bbb8b8;
+  border-left: 5px solid #19791d;
   font-size: 0.95em;
 }
 
 #historico li.descanso {
-  border-left-color: #2196f3;
+  border-left-color: #128df1;
 }
