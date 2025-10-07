@@ -1,4 +1,4 @@
-let tempo = 25 * 60;
+let tempo = 30 * 60;
 let timer;
 let emPausa = false;
 let emFoco = true;
