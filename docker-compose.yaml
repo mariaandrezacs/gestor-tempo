@@ -1,15 +1,36 @@
+version: "3.9"
+
 services:
   web:
-    image: httpd:latest
+    build: .
     container_name: gestor-de-tempo
     ports:
       - "8080:80"
     volumes:
       - ./website:/usr/local/apache2/htdocs
-    restart: unless-stopped # o container reinicia se o Docker reiniciar
+    restart: unless-stopped
+    networks:
+      - minha-rede
+
+  db:
+    image: mysql:8.1
+    container_name: gestor-tempo-db
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: gestor
+      MYSQL_USER: user
+      MYSQL_PASSWORD: user123
+    volumes:
+      - db_data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    restart: unless-stopped
     networks:
       - minha-rede
 
 networks:
   minha-rede:
     driver: bridge
+
+volumes:
+  db_data:
