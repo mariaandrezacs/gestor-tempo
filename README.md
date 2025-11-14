@@ -26,6 +26,11 @@ Aplicação web simples para gerenciamento de tempo baseada na técnica Pomodoro
 1. Clone este repositório:
    ```bash
    git clone https://github.com/mariaandrezacs/gestor-tempo.git
+   ```
+2. Executar com Docker:
+   ```bash
+   docker compose up
+   ```
 
 ---
 
