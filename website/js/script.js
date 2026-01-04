@@ -43,13 +43,13 @@ function pausarTimer() {
 function resetarTimer() {
   clearInterval(timer);
   timer = null;
-  tempo = emFoco ? 25 * 60 : 5 * 60;
+  tempo = emFoco ? 30 * 60 : 5 * 60;
   atualizarDisplay();
 }
 
 function alternarModo() {
   emFoco = !emFoco;
-  tempo = emFoco ? 25 * 60 : 5 * 60;
+  tempo = emFoco ? 30 * 60 : 5 * 60;
   status.textContent = emFoco ? "Modo: Foco" : "Modo: Descanso";
   atualizarDisplay();
 }
