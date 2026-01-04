@@ -27,10 +27,13 @@ Aplicação web simples para gerenciamento de tempo baseada na técnica Pomodoro
    ```bash
    git clone https://github.com/mariaandrezacs/gestor-tempo.git
    ```
-2. Executar com Docker:
+2. Executar:
    ```bash
-   docker compose up
+   Instale a extensão Live Server
+   Clique com o botão direito no index.html
+   Open with Live Server
    ```
+3. Para usar com Docker é só baixa a versão v1.0.
 
 ---
 
